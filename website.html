@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School PDFs Repository</title>
+</head>
+<body>
+    <header>
+        <h1>School PDFs Repository</h1>
+    </header>
+    <main>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <label for="pdfFile">Upload PDF:</label>
+            <input type="file" name="pdfFile" id="pdfFile" accept=".pdf">
+            <button type="submit">Upload</button>
+        </form>
+        <h2>Available PDFs:</h2>
+        <ul>
+            <li><a href="pdfs/sample.pdf" target="_blank">Sample PDF</a></li>
+            <!-- Add more PDF links here -->
+        </ul>
+    </main>
+    
+</body>
+</html>
